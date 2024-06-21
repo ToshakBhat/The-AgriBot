@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="crops">
+        <item>RICE</item>
+        <item>WHEAT</item>
+        <item>MILLETS</item>
+        <item>PULSES</item>
+        <item>TEA</item>
+        <item>COFFEE</item>
+        <item>SUGARCANE</item>
+        <item>JUTE</item>
+        <item>MAIZE</item>
+        <item>COTTON</item>
+        <item>BAJRA</item>
+    </string-array>
+</resources>

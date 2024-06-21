@@ -1,0 +1,199 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.toshakbhat.agribot"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:6:5-71
+12-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:7:22-64
+14
+15    <permission
+15-->[androidx.core:core:1.12.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\f6331a4e2ef1f09bdfecaa76cf95059d\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.toshakbhat.agribot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.12.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\f6331a4e2ef1f09bdfecaa76cf95059d\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.12.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\f6331a4e2ef1f09bdfecaa76cf95059d\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.toshakbhat.agribot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.12.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\f6331a4e2ef1f09bdfecaa76cf95059d\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.12.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\f6331a4e2ef1f09bdfecaa76cf95059d\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:9:5-59:19
+22        android:allowBackup="true"
+22-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:10:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.12.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\f6331a4e2ef1f09bdfecaa76cf95059d\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:11:9-65
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:fullBackupContent="@xml/backup_rules"
+27-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:12:9-54
+28        android:icon="@drawable/agribot_logo"
+28-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:13:9-46
+29        android:label="@string/app_name"
+29-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:14:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:15:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:16:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.KisanSarthi" >
+33-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:17:9-49
+34        <activity
+34-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:19:9-21:40
+35            android:name="com.toshakbhat.agribot.FarmerGPT"
+35-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:20:13-38
+36            android:exported="false" />
+36-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:21:13-37
+37        <activity
+37-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:22:9-24:40
+38            android:name="com.toshakbhat.agribot.duniya"
+38-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:23:13-35
+39            android:exported="false" />
+39-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:24:13-37
+40        <activity
+40-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:25:9-27:40
+41            android:name="com.toshakbhat.agribot.SuccessActivity"
+41-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:26:13-44
+42            android:exported="false" />
+42-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:27:13-37
+43        <activity
+43-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:28:9-30:40
+44            android:name="com.toshakbhat.agribot.ExpertActivity"
+44-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:29:13-43
+45            android:exported="false" />
+45-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:30:13-37
+46        <activity
+46-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:31:9-33:40
+47            android:name="com.toshakbhat.agribot.FarmerActivity"
+47-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:32:13-43
+48            android:exported="false" />
+48-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:33:13-37
+49        <activity
+49-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:34:9-36:40
+50            android:name="com.toshakbhat.agribot.CaptureImageActivity"
+50-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:35:13-49
+51            android:exported="false" />
+51-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:36:13-37
+52        <activity
+52-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:37:9-47:20
+53            android:name="com.toshakbhat.agribot.SplashActivity"
+53-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:38:13-43
+54            android:exported="true"
+54-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:39:13-36
+55            android:noHistory="true" > <!-- android:noHistory="true" will give enable us to avoid splash screen when we go back -->
+55-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:40:13-37
+56            <intent-filter>
+56-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:41:13-45:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:42:17-69
+57-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:42:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:44:17-77
+59-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:44:27-74
+60            </intent-filter>
+61            <!-- activity having intent filter will run first when launched -->
+62        </activity>
+63        <activity android:name="com.toshakbhat.agribot.MainActivity" />
+63-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:48:9-50
+63-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:48:19-47
+64
+65        <provider
+65-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:50:9-58:20
+66            android:name="androidx.core.content.FileProvider"
+66-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:51:13-62
+67            android:authorities="com.example.agribot.fileprovider"
+67-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:52:13-67
+68            android:exported="false"
+68-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:53:13-37
+69            android:grantUriPermissions="true" >
+69-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:54:13-47
+70            <meta-data
+70-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:55:13-57:54
+71                android:name="android.support.FILE_PROVIDER_PATHS"
+71-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:56:17-67
+72                android:resource="@xml/file_paths" />
+72-->C:\Users\TOSHAK BHAT\Desktop\AgriBot\app\src\main\AndroidManifest.xml:57:17-51
+73        </provider>
+74        <provider
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+75            android:name="androidx.startup.InitializationProvider"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+76            android:authorities="com.toshakbhat.agribot.androidx-startup"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+77            android:exported="false" >
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+78            <meta-data
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+80                android:value="androidx.startup" />
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\983748488b9e81a7fb8b6b462ce81aee\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\983748488b9e81a7fb8b6b462ce81aee\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+83                android:value="androidx.startup" />
+83-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\983748488b9e81a7fb8b6b462ce81aee\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+84            <meta-data
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+86                android:value="androidx.startup" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+87        </provider>
+88
+89        <receiver
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+90            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+91            android:directBootAware="false"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+92            android:enabled="true"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+93            android:exported="true"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+94            android:permission="android.permission.DUMP" >
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+96                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+99                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+102                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+105                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TOSHAK BHAT\.gradle\caches\transforms-3\784ad8f1570ed9f0e3099a314a2f712a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+106            </intent-filter>
+107        </receiver>
+108    </application>
+109
+110</manifest>

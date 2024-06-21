@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="crops">
+        <item>RICE</item>
+        <item>WHEAT</item>
+        <item>MILLETS</item>
+        <item>PULSES</item>
+        <item>TEA</item>
+        <item>COFFEE</item>
+        <item>SUGARCANE</item>
+        <item>JUTE</item>
+        <item>MAIZE</item>
+        <item>COTTON</item>
+        <item>BAJRA</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Experts">SAARTHI</string>
+    <string name="Farmers">FEEDBACK</string>
+    <string name="Head">Agri Bot</string>
+    <string name="app_name">AgriBot</string>
+    <string name="description">You can give your feedback by clicking on Speak button</string>
+    <string name="kisan1">FARMER GPT</string>
+    <string name="kisan3">DETECT DISEASE</string>
+    <string name="kisan4">CROP INFO</string>
+    <string name="solutions">
+scorching of leaf margins is the characteristic symptom of potassium deficiency.
+Scorching starts from tip downwards. Fruit quality is reduced. Trees with potassium deficiency are easily prone to pest and disease attack.
+</string>
+    <style name="Base.Theme.KisanSarthi" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        <item name="colorPrimary">@color/teal_700</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/purple_200</item>
+        <item name="colorSecondaryVariant">@color/purple_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.KisanSarthi" parent="Base.Theme.KisanSarthi"/>
+</resources>
