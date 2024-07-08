@@ -2911,13 +2911,9 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-drawable agribot
 drawable agribot_logo
-drawable apple
 drawable avd_hide_password
 drawable avd_show_password
-drawable bg
-drawable blueberry
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2931,7 +2927,6 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
-drawable green
 drawable ic_arrow_back_black_24
 drawable ic_baseline_info_24
 drawable ic_baseline_person_outline_24
@@ -3027,7 +3022,6 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable report
-drawable speak
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light

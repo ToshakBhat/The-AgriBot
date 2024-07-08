@@ -29,6 +29,7 @@ public class ExpertActivity extends AppCompatActivity {
         description = findViewById(R.id.description);
         speak = findViewById(R.id.speak);
         submit = findViewById(R.id.submit);
+        submit.setVisibility(View.GONE);
         // Initialize SpeechRecognizer
 
 
@@ -39,6 +40,7 @@ public class ExpertActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 speak();
+
 
             }
         });
@@ -77,6 +79,7 @@ public class ExpertActivity extends AppCompatActivity {
                 if (resultCode == RESULT_OK && null!=data){
                     ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                     description.setText(result.get(0));
+                    submit.setVisibility(View.VISIBLE);
                 }
             }
         }

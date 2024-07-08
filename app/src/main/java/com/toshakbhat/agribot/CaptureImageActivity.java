@@ -65,7 +65,7 @@ public class CaptureImageActivity extends AppCompatActivity {
                 //imgView.setImageURI(imageUri);
                 Intent intent = new Intent(Intent.ACTION_PICK,MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                 startActivityForResult(intent,SELECT_IMAGE_REQUEST);
-                send_to_expert.setVisibility(View.VISIBLE);
+
             }
         });
         send_to_expert.setOnClickListener(new View.OnClickListener() {
@@ -79,6 +79,7 @@ public class CaptureImageActivity extends AppCompatActivity {
                         Intent intent = new Intent(CaptureImageActivity.this,SuccessActivity.class);
                         intent.putExtra("response",response);
                         startActivity(intent);
+                        finish();
                     }
 
                     @Override
@@ -108,6 +109,7 @@ public class CaptureImageActivity extends AppCompatActivity {
 
                 image = Bitmap.createScaledBitmap(originalImage,targetWidth,targetHeight,false);
                 imgView.setImageBitmap(originalImage);
+                send_to_expert.setVisibility(View.VISIBLE);
 
             } catch (Exception e) {
                 e.printStackTrace();

@@ -64,10 +64,6 @@
         "source": "C:\\Users\\TOSHAK BHAT\\.gradle\\daemon\\8.0\\com.toshakbhat.agribot.app-main-34:\\drawable\\agribot_logo.png"
     },
     {
-        "merged": "com.toshakbhat.agribot.app-merged_res-32:/layout_activity_splash.xml.flat",
-        "source": "com.toshakbhat.agribot.app-main-34:/layout/activity_splash.xml"
-    },
-    {
         "merged": "C:\\Users\\TOSHAK BHAT\\.gradle\\daemon\\8.0\\com.toshakbhat.agribot.app-merged_res-32:\\mipmap-xxhdpi_kisan_sarthi2.jpeg.flat",
         "source": "C:\\Users\\TOSHAK BHAT\\.gradle\\daemon\\8.0\\com.toshakbhat.agribot.app-main-34:\\mipmap-xxhdpi\\kisan_sarthi2.jpeg"
     },
@@ -126,6 +122,10 @@
     {
         "merged": "C:\\Users\\TOSHAK BHAT\\.gradle\\daemon\\8.0\\com.toshakbhat.agribot.app-merged_res-32:\\drawable_agribot.jpg.flat",
         "source": "C:\\Users\\TOSHAK BHAT\\.gradle\\daemon\\8.0\\com.toshakbhat.agribot.app-main-34:\\drawable\\agribot.jpg"
+    },
+    {
+        "merged": "com.toshakbhat.agribot.app-merged_res-32:/layout_activity_capture_image.xml.flat",
+        "source": "com.toshakbhat.agribot.app-main-34:/layout/activity_capture_image.xml"
     },
     {
         "merged": "C:\\Users\\TOSHAK BHAT\\.gradle\\daemon\\8.0\\com.toshakbhat.agribot.app-merged_res-32:\\drawable_bg.jpg.flat",
